@@ -1,0 +1,55 @@
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>Bondfire</ion-title>
+  </ion-navbar>
+</ion-header>
+<ion-content padding class="startBondfire-page">
+  <h3>Start a Bondfire!</h3>
+    <ion-list>
+
+    <ion-item>
+      <ion-label>Bondfire Title</ion-label>
+      <ion-input type="text" value=""></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-label>Description</ion-label>
+      <ion-input type="text" value=""></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-label>Date</ion-label>
+      <ion-input type="date" value=""></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-label>Time</ion-label>
+      <ion-input type="time" value=""></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-label># of Attendees</ion-label>
+      <ion-input type="number" value=""></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-label>Cost Per Attendee</ion-label>
+      <ion-input type="number" value=""></ion-input>
+    </ion-item>
+
+
+  </ion-list>
+    <button ion-button secondary menuToggle [navPush]="confirmBondfirePage" >Next</button>
+</ion-content>
+
+<!--<sliding-drawer [options]="drawerOptions">
+  <div class="content">
+    The world is your oyster.
+    <p>
+      If you get lost, the <a href="http://ionicframework.com/docs/v2">docs</a> will be your guide.
+    </p>
+  </div>
+</sliding-drawer>-->

@@ -4,7 +4,9 @@ import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
 import { InfluencerProfileSetupPage } from '../pages/ipsetup/ipsetup';
 import { IWalkthroughPage } from '../pages/iwalkthrough/iwalkthrough';
-
+import { StartBondfirePage } from '../pages/startbondfire/startbondfire';
+import { ConfirmBondfirePage } from '../pages/confirmbondfire/confirmbondfire';
+import { AllsetPage } from '../pages/allset/allset'
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 
@@ -13,7 +15,10 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     MyApp,
     HomePage,
     InfluencerProfileSetupPage,
-    IWalkthroughPage
+    IWalkthroughPage,
+    StartBondfirePage,
+    ConfirmBondfirePage,
+    AllsetPage
   ],
   imports: [
     IonicModule.forRoot(MyApp)
@@ -23,7 +28,10 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     MyApp,
     HomePage,
     InfluencerProfileSetupPage,
-    IWalkthroughPage
+    IWalkthroughPage,
+    StartBondfirePage,
+    ConfirmBondfirePage,
+    AllsetPage
   ],
   providers: [
     StatusBar,

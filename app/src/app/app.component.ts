@@ -6,7 +6,9 @@ import { SplashScreen } from '@ionic-native/splash-screen';
 import { HomePage } from '../pages/home/home';
 import { InfluencerProfileSetupPage } from '../pages/ipsetup/ipsetup';
 import { IWalkthroughPage } from '../pages/iwalkthrough/iwalkthrough';
-
+import { StartBondfirePage } from '../pages/startbondfire/startbondfire';
+import { ConfirmBondfirePage } from '../pages/confirmbondfire/confirmbondfire';
+import { AllsetPage } from '../pages/allset/allset'
 
 @Component({
   templateUrl: 'app.html'

@@ -1,14 +1,18 @@
 import { Component } from '@angular/core';
 
+import { StartBondfirePage } from '../startbondfire/startbondfire';
 
 @Component({
   selector: 'iwalkthrough-page',
   templateUrl: 'iwalkthrough.html'
 })
 export class IWalkthroughPage {
+
+  startBondfirePage = StartBondfirePage;
+
   slides = [
     {
-      title: "Welcome to Innovare!",
+      title: "Welcome to Bondfire!",
       description: "Innovare is bridging the gap between the tech startup world and hungry students looking to expand their horizons in Chicago!",
       image: "assets/img/ica-slidebox-img-1.png",
     },
