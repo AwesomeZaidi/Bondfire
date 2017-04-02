@@ -1,0 +1,15 @@
+<ion-header no-border>
+  <ion-navbar transparent>
+  </ion-navbar>
+</ion-header>
+<ion-content fullscreen padding>
+  <img class="logo" src="assets/img/logo/applogo.png" />
+  <p>Chill with some of your favorite people and see the behind scenes of their lives</p>
+  <div class="buttons">
+    <button ion-button class="login-button google" [navPush]="influencerProfileSetupPage">Influencers</button>
+    <button ion-button class="login-button" color="dark" (click)="goToSignup()">Fans</button>
+  </div>
+  <video #player playsinline autoplay muted loop poster="assets/video-cover.jpg" id="bgvid">
+    <source src="assets/video/appvideo.mp4" type="video/mp4"> Your browser does not support the video tag.
+  </video>
+</ion-content>
