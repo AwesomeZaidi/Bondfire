@@ -7,7 +7,7 @@
 
   <div class="buttons">
     <button ion-button class="login-button google" [navPush]="influencerProfileSetupPage">Influencers</button>
-    <button ion-button class="login-button" color="dark" (click)="goToSignup()">Fans</button>
+    <button ion-button class="login-button" color="dark" [navPush]="fanProfileSetupPage">Fans</button>
   </div>
   <video #player playsinline autoplay muted loop poster="assets/video-cover.jpg" id="bgvid">
     <source src="assets/video/appvideo.mp4" type="video/mp4"> Your browser does not support the video tag.

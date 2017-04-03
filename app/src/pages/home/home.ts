@@ -1,6 +1,6 @@
 import { Component, ViewChild } from '@angular/core';
 import { NavController } from 'ionic-angular';
-
+import { FanProfileSetupPage } from '../fpsetup/fpsetup';
 import { InfluencerProfileSetupPage } from '../ipsetup/ipsetup';
 
 @Component({
@@ -10,6 +10,7 @@ import { InfluencerProfileSetupPage } from '../ipsetup/ipsetup';
 export class HomePage {
 
   @ViewChild('player') player;
+  fanProfileSetupPage = FanProfileSetupPage;  
   influencerProfileSetupPage = InfluencerProfileSetupPage;
   constructor(public navCtrl: NavController) { }
 

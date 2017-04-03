@@ -1,6 +1,8 @@
 import { Component } from '@angular/core';
 import { NavController } from 'ionic-angular';
 
+import { PopupMenuOnePage } from './popup-menu-one/popup-menu-one';
+
 import { ConfirmBondfirePage } from '../confirmbondfire/confirmbondfire';
 
 @Component({
